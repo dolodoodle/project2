@@ -1,0 +1,82 @@
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e1d2ad;
+}
+
+header {
+  color: #6a1414;
+  /*font-family: 'Big Shoulders Text', cursive;*/
+  font-size: 35px;
+  background-color: #C0DDE3;
+  text-align: center;
+  margin: 0;
+  max-width: 100%;
+  padding: 45px 80px;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+img {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .nxt {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  margin: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.nxt {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+
+.slides {
+  width:400px;
+  height: 500px;
+  margin:auto;
+  position:relative;
+  border: 1px solid red;
+}
+
+.slides figure {
+  margin:0;
+}
+
+
+.hide {
+  display: none;
+}
+
+.abs-pos {
+  position: absolute;
+}
+
+figcaption{
+  font-size: 18px;
+  background: rgba(255, 255, 255, .5);
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
