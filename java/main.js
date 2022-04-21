@@ -36,7 +36,7 @@ function init() {
 
 
   // start the timer
-  myInterval = setInterval(changeSlide, 5000);
+  myInterval = setInterval(changeSlide, 2000);
 
 
 

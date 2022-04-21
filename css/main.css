@@ -21,6 +21,9 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  text-align: center;
+}
 
 img {
   display: block;
@@ -51,11 +54,11 @@ img {
   
 
 .slides {
-  width:400px;
-  height: 500px;
+  width:408px;
+  height: 508px;
   margin:auto;
   position:relative;
-  border: 1px solid red;
+  border: 4px solid black;
 }
 
 .slides figure {
