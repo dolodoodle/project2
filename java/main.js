@@ -21,9 +21,10 @@ function init() {
     //with JS active, hide all images
     dogs.forEach((dog) => {
       dog.classList.add("hide", "abs-pos");
+   
     // show the first slide
    dogs[0].classList.remove("hide");
-  });
+    });
 
 
 
@@ -36,7 +37,7 @@ function init() {
 
 
   // start the timer
-  myInterval = setInterval(changeSlide, 2000);
+  myInterval = setInterval(changeSlide, 5000);
 
 
 
@@ -59,7 +60,7 @@ function init() {
 
       // determine which direction we will be going.
       // if called by myInterval there's no event object passed.
-      if (!e || e.target.className == "next-btn") {
+      if (!e || e.target.className == "nxt") {
           nextUp = showing.nextElementSibling;
       } else {
           nextUp = showing.previousElementSibling;
